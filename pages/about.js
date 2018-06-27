@@ -1,5 +1,3 @@
-// import fetch from 'isomorphic-unfetch';
-// import fs from 'fs';
 import Layout from '../components/Layout';
 
 const About = (props) => (
