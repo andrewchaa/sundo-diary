@@ -27,3 +27,4 @@ chrome-user-data
 *.swp
 *.swo
 .next/
+out/

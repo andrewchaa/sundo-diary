@@ -1,4 +1,5 @@
-import fetch from 'isomorphic-unfetch';
+// import fetch from 'isomorphic-unfetch';
+// import fs from 'fs';
 import Layout from '../components/Layout';
 
 const About = (props) => (
@@ -10,20 +11,18 @@ const About = (props) => (
   </Layout>
 )
 
-About.getInitialProps = async function({req}) {
-  const baseUrl = req ? `http://${req.headers.host}` : '';
-  const res = await fetch(baseUrl + '/static/sdt01_00.htm');
-  const data = await res.text();
+About.getInitialProps = async function({query}) {
+  
   const titleRegex = /<title>([\s\S]*?)<\/title>/gmi
   const contentRegex = /<Content>([\s\S]*?)<\/Content>/gmi
 
   return {
     title: titleRegex
-      .exec(data)[0]
+      .exec(query.data)[0]
       .replace(/<\/?title>/gmi, '')
       .replace(/(\r\n|\r|\n)/gmi, ''),
     content: contentRegex
-      .exec(data)[0]
+      .exec(query.data)[0]
       .replace(/<\/?Content>/, '')
       .replace(/(\r\n|\r|\n)/gmi, '<br />')
   }

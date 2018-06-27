@@ -9,7 +9,8 @@
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass-chokidar ./src/sass -o public/",
-    "watch-css": "node-sass-chokidar ./src/sass -o public/ --watch"
+    "watch-css": "node-sass-chokidar ./src/sass -o public/ --watch",
+    "export": "npm run build && next export"
   },
   "repository": {
     "type": "git",
