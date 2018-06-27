@@ -1,12 +1,11 @@
 import fetch from 'isomorphic-unfetch';
-import R from 'ramda';
 import Layout from '../components/Layout';
 
 const About = (props) => (
   <Layout>
     <div>
-      <h1>About</h1>
-      <p dangerouslySetInnerHTML={{ __html: props.htmlData }}></p>
+      <h2>{props.title}</h2>
+      <p dangerouslySetInnerHTML={{ __html: props.content }}></p>
     </div>
   </Layout>
 )
@@ -14,10 +13,19 @@ const About = (props) => (
 About.getInitialProps = async function({req}) {
   const baseUrl = req ? `http://${req.headers.host}` : '';
   const res = await fetch(baseUrl + '/static/sdt01_00.htm');
-  const html = await res.text();
+  const data = await res.text();
+  const titleRegex = /<title>([\s\S]*?)<\/title>/gmi
+  const contentRegex = /<Content>([\s\S]*?)<\/Content>/gmi
 
   return {
-    htmlData: html.replace(/(\r\n|\r|\n)/gi, '<br />')
+    title: titleRegex
+      .exec(data)[0]
+      .replace(/<\/?title>/gmi, '')
+      .replace(/(\r\n|\r|\n)/gmi, ''),
+    content: contentRegex
+      .exec(data)[0]
+      .replace(/<\/?Content>/, '')
+      .replace(/(\r\n|\r|\n)/gmi, '<br />')
   }
 }
 

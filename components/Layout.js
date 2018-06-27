@@ -20,7 +20,6 @@ const Layout = (props) => (
         <div className="row">
           <Sidebar />
           <div className="col-md-9">
-            <h1>Hello, world!</h1>
             {props.children}
           </div>
         </div>
