@@ -1,4 +1,5 @@
-// import fetch from 'isomorphic-unfetch';
+import fetch from 'isomorphic-unfetch';
+import R from 'ramda';
 import Layout from '../components/Layout';
 
 const About = (props) => (
@@ -13,10 +14,10 @@ const About = (props) => (
 About.getInitialProps = async function({req}) {
   const baseUrl = req ? `http://${req.headers.host}` : '';
   const res = await fetch(baseUrl + '/static/sdt01_00.htm');
-  const data = await res.text();
+  const html = await res.text();
 
   return {
-    htmlData: data
+    htmlData: html.replace(/(\r\n|\r|\n)/gi, '<br />')
   }
 }
 
