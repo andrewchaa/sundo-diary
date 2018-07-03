@@ -30,6 +30,18 @@ const Sidebar = () => (
         <a href="/sdt03_06.html">6. 성숙해진 마음</a><br />
         <a href="/sdt03_07.html">7. 해설과 당부</a><br />
         <a href="/sdt03_08.html">7. 잡동사니</a><br />
+        <p>제4권 대전환</p>
+        <a href="/sdt04_01.html">1. 낙상/옛친구</a><br />
+        <a href="/sdt04_02.html">2. 절수련/경전 읽기</a><br />
+        <a href="/sdt04_03.html">3. 대선사의 비리</a><br />
+        <a href="/sdt04_04.html">고민 속의 수련</a><br />
+        <a href="/sdt04_05.html">5. 선도체험기 출판</a><br />
+        <a href="/sdt04_06.html">* 대선사 비난 글 모음</a><br />
+        <a href="/sdt04_07.html">질의응답</a><br />
+        <a href="/sdt04_08.html">선도체험기 4권 서문</a><br />
+        <a href="/sdt04_09.html">선도체험기 1-10권 연표</a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
       </li>
     </ul>
 
