@@ -40,6 +40,39 @@ const Sidebar = () => (
         <a href="/sdt04_07.html">질의응답</a><br />
         <a href="/sdt04_08.html">선도체험기 4권 서문</a><br />
         <a href="/sdt04_09.html">선도체험기 1-10권 연표</a><br />
+        <p>제5권 암벽추락과 병상수련</p>
+        <a href="/sdt05_01.html">1. 대선사와 민소영</a><br />
+        <a href="/sdt05_02.html">2. 암벽 추락</a><br />
+        <a href="/sdt05_03.html">3. 병상 수련</a><br />
+        <a href="/sdt05_04.html">4. 민소영의 수련 지도</a><br />
+        <a href="/sdt05_05.html">5. 수련 관련 글 모음</a><br />
+        <a href="/sdt05_06.html">6. 병상의 단면들</a><br />
+        <a href="/sdt05_07.html">7. 좌경 세력들을 걱정하며</a><br />
+        <p>제7권 백일수련과 단식수련</p>
+        <a href="/sdt07_01.html">1. 본성/공 체험</a><br />
+        <a href="/sdt07_02.html">2. 벽사문/천부경 수련</a><br />
+        <a href="/sdt07_03.html">3. 접신에서 풀려나다</a><br />
+        <a href="/sdt07_04.html">4. 단식 준비</a><br />
+        <a href="/sdt07_05.html">5. 단식수련/진아체험</a><br />
+        <a href="/sdt07_06.html">6. 크게 열린 상.중단전</a><br />
+        <a href="/sdt07_07.html">7. 수련 관련 해설</a><br />
+        <a href="/sdt07_08.html">*  대선사 비난 글</a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
+        <a href="/.html"></a><br />
         <a href="/.html"></a><br />
         <a href="/.html"></a><br />
       </li>
