@@ -57,18 +57,20 @@ const Sidebar = () => (
         <a href="/sdt07_06.html">6. 크게 열린 상.중단전</a><br />
         <a href="/sdt07_07.html">7. 수련 관련 해설</a><br />
         <a href="/sdt07_08.html">*  대선사 비난 글</a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
-        <a href="/.html"></a><br />
+        <p>제8권  오행생식/선도체험기4권 발간</p>
+        <a href="/sdt08_01.html">1. 생식을 시작하다</a><br />
+        <a href="/sdt08_02.html">2. 정관 복원 수술</a><br />
+        <a href="/sdt08_03.html">선도체험기 4권 발간</a><br />
+        <a href="/sdt08_04.html">4. 운사합법 중단</a><br />
+        <a href="/sdt08_05.html">5. 수련 관련 해설</a><br />
+        <a href="/sdt08_06.html">0, 나를 찾아오는 조건</a><br />
+        <p>제11권 단학선원과의 싸움</p>
+        <a href="/sdt11_00.htm.html">제11권 단학선원과의 싸움</a><br />
+        <a href="/sdt11_01.html">감도는 전운</a><br />
+        <a href="/sdt11_02.html">2. 선도 수련 해설</a><br />
+        <a href="/sdt11_03.html">남녀의 체질 조화</a><br />
+        <a href="/sdt11_04.html">4. 나를 찾아온 사람들</a><br />
+        <a href="/sdt11_05.html">5. 잡동사니</a><br />
         <a href="/.html"></a><br />
         <a href="/.html"></a><br />
         <a href="/.html"></a><br />
